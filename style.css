@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body,
+html {
+  height: 100%;
+}
+.container {
+  background-color: rgba(79, 209, 226, 0.345);
+  background-image: url('zorro.jpg');
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font: 14px Baskerville, 'Palatino Linotype', 'Times New Roman', Times, serif;
+  /* border: black solid 1px; */
+}
+.yek {
+  align-self: flex-start;
+  /* border: black solid 1px; */
+  font-size: 2em;
+}
+p {
+  margin-top: 2em;
+  margin-bottom: 1.2em;
+}
+h4 {
+  margin-top: 1.5em;
+  text-decoration: wavy;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(79, 209, 226, 0.345);
+  height: 20px;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
